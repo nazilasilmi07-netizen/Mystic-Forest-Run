@@ -1,0 +1,6 @@
+{
+  "name": "Rimba Pixel Runner",
+  "description": "Game web 2D pixel-art endless runner bertema petualangan hewan lucu di hutan dengan 3 jalur rintangan, koin, monster, dan 2 level tantangan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

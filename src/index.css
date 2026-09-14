@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Silkscreen', 'Press Start 2P', system-ui, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+    background-color: #121815;
+    color: #f3f4f6;
+  }
+}
+
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-arcade {
+  font-family: 'Silkscreen', cursive, sans-serif;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Custom retro pixel button styling */
+.pixel-btn {
+  position: relative;
+  border-width: 4px;
+  border-style: solid;
+  transition: transform 0.05s ease, filter 0.1s ease;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.4);
+}
+
+.pixel-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.4);
+}
+
+.pixel-card {
+  border-width: 4px;
+  border-style: solid;
+  box-shadow: 0 8px 0 rgba(0,0,0,0.5);
+}
